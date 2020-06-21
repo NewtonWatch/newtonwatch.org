@@ -1,8 +1,6 @@
-## NewtonWatch
+# NewtonWatch.org
 
-This repository is the source code for [https://www.newtonwatch.org](https://www.newtonwatch.org).
-
-**Design heavily influenced by [Jake Wiesler](https://github.com/jakewies/jakewiesler.com).**
+This repository is the source code for [https://www.newtonwatch.org](https://www.newtonwatch.org). Site design heavily influenced by [Jake Wiesler](https://github.com/jakewies/jakewiesler.com).
 
 License
 ===
