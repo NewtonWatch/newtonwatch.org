@@ -1,0 +1,16 @@
+baseURL = "https://www.newtonwatch.org/"
+languageCode = "en-us"
+title = "NewtonWatch"
+preserveTaxonomyNames = true
+copyright = "© 2020-{year} Copyright NewtonWatch. All rights reserved."
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  author = "NewtonWatch"
+  description = "NewtonWatch is restoring citizen journalism to the city of Newton."
+  twitter = "@newtonwatch"
+
+[markup.goldmark.renderer]
+    unsafe= true
