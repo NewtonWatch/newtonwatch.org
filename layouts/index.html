@@ -2,8 +2,7 @@
 
 <div class="splash-container">
     <div class="splash">
-        <h1>NewtonWatch</h1>
-        <span class="handle">@newtonwatch</span>
+        {{ partial "logo" . }}
 
         <p><i>NewtonWatch</i> is restoring citizen journalism to the city of Newton!</p>
         <p>We intend to serve two urgent needs for our neighbors in Newton: providing critical information with a clear bias, and building power and solidarity along class lines. More specifically, we want to:</p>
@@ -16,8 +15,7 @@
         <p>—The Team</p>
 
         {{ partial "social-icons.html" . }}
-
-</div>
+    </div>
 </div>
 
 {{ end }}
