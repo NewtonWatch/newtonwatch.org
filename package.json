@@ -19,7 +19,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-stylus": "^2.7.0",
     "gulp-util": "^3.0.8",
-    "standard-version": "^8.0.0"
+    "standard-version": "^8.0.2"
   },
   "scripts": {
     "build:assets": "gulp build",
