@@ -8,10 +8,10 @@
     "url": "https://github.com/NewtonWatch/newtonwatch.org"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
+    "@babel/core": "^7.11.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "concurrently": "^5.2.0",
+    "concurrently": "^5.3.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
@@ -19,11 +19,11 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-stylus": "^2.7.0",
     "gulp-util": "^3.0.8",
-    "standard-version": "^8.0.2"
+    "standard-version": "^9.0.0"
   },
   "scripts": {
     "build:assets": "gulp build",
-    "clean:public": "rm -f public/sitemap.xml && rm -f public/index.html && rm -f public/index.xml && rm -R public/archive/ && rm -R public/css/ && rm -R public/icons/ && rm -R public/img/ && rm -R public/js/ && rm -R public/tags/",
+    "clean:public": "rm -f public/sitemap.xml && rm -f public/index.html && rm -f public/index.xml && rm -R public/articles/ && rm -R public/css/ && rm -R public/icons/ && rm -R public/img/ && rm -R public/js/ && rm -R public/tags/",
     "dev": "concurrently npm:hugo npm:gulp",
     "gulp": "gulp --env=dev",
     "hugo": "hugo server -D",
@@ -33,7 +33,7 @@
   "author": "NewtonWatch",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "lodash.template": "^4.5.0"
   }
 }

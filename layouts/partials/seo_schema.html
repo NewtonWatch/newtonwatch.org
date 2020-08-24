@@ -1,14 +1,14 @@
 <!-- JSON-LD -->
 <script type="application/ld+json">
-  {{ if and (.IsPage) (eq .Section "archive") }}
+  {{ if and (.IsPage) (eq .Section "articles") }}
     {
       "@context" : "http://schema.org",
-      "@type" : "ArchivePosting",
+      "@type" : "ArticlesPosting",
       "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ .Site.BaseURL }}"
       },
-      "archiveSection" : "{{ .Section }}",
+      "articlesSection" : "{{ .Section }}",
       "name" : "{{ .Title }}",
       "headline" : "{{ .Title }}",
       "description" : "{{ .Description }}",
