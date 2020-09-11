@@ -5,6 +5,7 @@ date: 2020-08-15T13:49:44-07:00
 stylesheet: "article.css"
 slug: "editorial-guidelines"
 keywords: ["journalism", "citizen journalism", "newton", "editorial-guidelines"]
+type: articles
 draft: false
 ---
 
