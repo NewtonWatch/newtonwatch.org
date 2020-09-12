@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.1...v0.0.2) (2020-09-12)
+
+
+### Features
+
+* add banner to about ([e6ccfd3](https://github.com/NewtonWatch/newtonwatch.org/commit/e6ccfd3a359d9625f4cda59b3da3e224a35907f9))
+* css re-compile ([f33eaf9](https://github.com/NewtonWatch/newtonwatch.org/commit/f33eaf9f7a1c74eba842568cc45bf9a1268544ce))
+
 ### 0.0.1 (2020-09-12)
 
 
