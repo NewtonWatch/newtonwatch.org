@@ -6,6 +6,7 @@ stylesheet: "article.css"
 slug: "editorial-guidelines"
 keywords: ["journalism", "citizen journalism", "newton", "editorial-guidelines"]
 type: articles
+menu: "main"
 draft: false
 ---
 
