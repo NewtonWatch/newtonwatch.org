@@ -1,11 +1,11 @@
 <nav class="nav" role="navigation">
-  <ul class="nav__list">
-    {{ $currentPage := . }} 
-    {{ range .Site.Menus.main }}
-      <li>
-        <a {{if or ($currentPage.IsMenuCurrent "main" .) (and (eq .Name "articles") (eq $currentPage.Section "articles")) }} class="active"
-          {{end}} href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-    {{ end }}
-  </ul>
+    <ul class="nav__list">
+        {{ $currentPage := . }} 
+        {{ range .Site.Menus.main }}
+            <li>
+                <a {{if or ($currentPage.IsMenuCurrent "main" .) (and (eq .Name "articles") (eq $currentPage.Section "articles")) }} class="active"
+                    {{end}} href="{{ .URL }}">{{ lower .Name }}</a>
+            </li>
+        {{ end }}
+    </ul>
 </nav>
