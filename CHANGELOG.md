@@ -1,0 +1,26 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.0.1 (2020-09-12)
+
+
+### Features
+
+* add captions below images ([37e9012](https://github.com/NewtonWatch/newtonwatch.org/commit/37e901269db8bc04dafcf84f89667a1ecd8414a7))
+* add logo and banner to articles list (new homepage) ([c70353b](https://github.com/NewtonWatch/newtonwatch.org/commit/c70353b23068def09008aad446e1f80475b8faac))
+* add NewtonWatch logo ([ee68ccc](https://github.com/NewtonWatch/newtonwatch.org/commit/ee68cccdab2c8be9ab527b50204dfdb27de12e46))
+* add to menu ([28f681e](https://github.com/NewtonWatch/newtonwatch.org/commit/28f681e4b7bb0e46beacb7570e0a069c5390a905))
+* editorial guidelines + new administration needs better vision ([ec9bd62](https://github.com/NewtonWatch/newtonwatch.org/commit/ec9bd62aa31e744cf13330bf0cc57f66b949cddc))
+* initial commit ([4f9a71d](https://github.com/NewtonWatch/newtonwatch.org/commit/4f9a71def57c84c36b843be0b43a8ccb4d67b426))
+* logo partial ([3aeeb0f](https://github.com/NewtonWatch/newtonwatch.org/commit/3aeeb0f80e41330ff2f07d372e5d1242bd14b2a7))
+* lowercase items ([0d17eca](https://github.com/NewtonWatch/newtonwatch.org/commit/0d17ecaa1f74e08ef177fcf9c645a0c30c5fae32))
+* move editorial guidelines out of articles ([680225b](https://github.com/NewtonWatch/newtonwatch.org/commit/680225bd4c6c7751f7bb0c9cb8684992ed7c04b3))
+* newton watch images ([f370fe6](https://github.com/NewtonWatch/newtonwatch.org/commit/f370fe646c34818f38d063f320d255d0f6f6b059))
+
+
+### Bug Fixes
+
+* NewtonWatch domain updated ([990ab7d](https://github.com/NewtonWatch/newtonwatch.org/commit/990ab7d624d2be1f216b3f8ff12a693f0d66cc70))
+* styling ([05e23d7](https://github.com/NewtonWatch/newtonwatch.org/commit/05e23d73bc955ad26b20356781d90f70042e6170))
+* update styling for headers ([9da1566](https://github.com/NewtonWatch/newtonwatch.org/commit/9da1566bbdba5d389a4330649ea25991d4e575b6))
