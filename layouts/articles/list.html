@@ -1,22 +1,28 @@
 {{ define "main" }} 
 
 <a href="/"><img src="/img/logo.png" alt="NewtonWatch logo" class="logo"></a>
-<div class="post-list__container">
-    <p class="editorial-guidelines">Check out NewtonWatch's <a href="/editorial-guidelines">Editorial Guidelines</a>.</p>
-    <ul class="post-list">
-        {{ range .Pages }}
-            <li class="post">
-                <div class="post__header">
-                <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
-                <h2 class="post__title">
-                    <a href="{{.RelPermalink}}">{{ .Title }}</a>
-                </h2>
-                {{ partial "tags.html" . }}
-                </div>
-            </li>
-        {{ end }}
-    </ul>
-    {{ partial "browse-by-tag.html" . }}
+<div class="wrapper">
+    <div class="row">
+        <div class="column posts-list-column">
+            <p class="editorial-guidelines">Check out NewtonWatch's <a href="/editorial-guidelines">Editorial Guidelines</a>.</p>
+            <ul class="post-list">
+                {{ range .Pages }}
+                    <li class="post">
+                        <div class="post__header">
+                        <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format "Jan 2 2006" }}</time>
+                        <h2 class="post__title">
+                            <a href="{{.RelPermalink}}">{{ .Title }}</a>
+                        </h2>
+                        {{ partial "tags.html" . }}
+                        </div>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="column tags-list-column">
+            {{ partial "browse-by-tag.html" . }}
+        </div>
+    </div>
 </div>
 
 {{ end }}

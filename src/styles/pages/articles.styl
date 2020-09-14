@@ -47,7 +47,32 @@
   margin:auto
 
 /* page overrides */
-.post-list__container
+.wrapper 
+  margin: 0 auto
+  max-width: 1200px
+  width: 100%
+
+  @media screen and (min-width: $medium)
+    padding-left: 50px
+
+.row {
   display: flex
-  justify-content: space-between
-  flex-direction: column
+  flex-direction: row
+  flex-wrap: wrap
+  width: 100%
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.posts-list-column {
+  flex-basis: 70%;
+}
+
+.tags-list-column {
+  margin-top: 60px
+  flex-basis: 30%;
+}

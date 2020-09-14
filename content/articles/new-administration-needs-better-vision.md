@@ -5,6 +5,7 @@ date: 2018-02-21T00:00:00-07:00
 stylesheet: "article.css"
 slug: "new-administration-needs-better-vision"
 keywords: ["journalism", "citizen journalism", "newton"]
+tags: ["mayor"]
 draft: false
 ---
 
