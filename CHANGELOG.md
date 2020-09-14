@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.6...v0.0.7) (2020-09-14)
+
+
+### Bug Fixes
+
+* update column width ([29e9f31](https://github.com/NewtonWatch/newtonwatch.org/commit/29e9f31459fa412c253ee62b4d5f327a72b7a4a4))
+
 ### [0.0.6](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.5...v0.0.6) (2020-09-14)
 
 
