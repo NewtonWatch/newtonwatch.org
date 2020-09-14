@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.5...v0.0.6) (2020-09-14)
+
+
+### Features
+
+* updates ([471d11b](https://github.com/NewtonWatch/newtonwatch.org/commit/471d11b243d3d0095c8644ce33328e819c0efb9d))
+
 ### [0.0.5](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.4...v0.0.5) (2020-09-12)
 
 
