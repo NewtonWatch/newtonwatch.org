@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.7...v0.0.8) (2020-09-15)
+
+
+### Features
+
+* css re-compile ([664b8ca](https://github.com/NewtonWatch/newtonwatch.org/commit/664b8ca5c730148b7527fe5006f85ed8bf5d6114))
+* move tags to top of article ([39f0ade](https://github.com/NewtonWatch/newtonwatch.org/commit/39f0adeebfbf9710629c098538deabfdf258ab80))
+
+
+### Bug Fixes
+
+* remove time article date ([19db02a](https://github.com/NewtonWatch/newtonwatch.org/commit/19db02aa45b39248cd13933815e299453ab08c33))
+
 ### [0.0.7](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.6...v0.0.7) (2020-09-14)
 
 
