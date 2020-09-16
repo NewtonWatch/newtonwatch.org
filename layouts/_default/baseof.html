@@ -20,13 +20,14 @@
 
   <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
   {{ if isset .Params "stylesheet" }}
-  <link rel="stylesheet" href="/css/{{ printf .Params.stylesheet }}" /> 
+    <link rel="stylesheet" href="/css/{{ printf .Params.stylesheet }}" /> 
   {{ end }}
   {{ range .AlternativeOutputFormats }} 
-  {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} 
+    {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} 
   {{ end }} 
   {{ block "links" . }} {{ end }}
   {{ partial "seo_schema.html" .}}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
@@ -40,6 +41,17 @@
 
   {{ block "footer" . }} {{ end }}
 
+  <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
   <script src="/js/index.js"></script>
   {{ block "scripts" . }} {{ end }}
 </body>
