@@ -2,58 +2,48 @@
 <html lang="{{ .Site.LanguageCode }}">
 
 <head>
-  <title>{{ .Page.Title }} | NewtonWatch</title>
+    <title>{{ .Page.Title }} | NewtonWatch</title>
 
-  <meta charset="UTF-8">
-  <meta name="language" content="en">
-  <meta name="description" content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}">
-  <meta name="keywords" content="{{ delimit .Keywords " , " }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{{ .Title }}" />
-  <meta name="twitter:description" content="{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}"/>
-  <meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
-  <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
-  <meta name="twitter:image" content={{ printf `%simg/thumbnail.jpeg` .Site.BaseURL}} />
+    <meta charset="UTF-8">
+    <meta name="language" content="en">
+    <meta name="description" content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}">
+    <meta name="keywords" content="{{ delimit .Keywords " , " }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}"/>
+    <meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
+    <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
+    <meta name="twitter:image" content={{ printf `%simg/thumbnail.jpeg` .Site.BaseURL}} />
 
-  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
-  {{ if isset .Params "stylesheet" }}
-    <link rel="stylesheet" href="/css/{{ printf .Params.stylesheet }}" /> 
-  {{ end }}
-  {{ range .AlternativeOutputFormats }} 
-    {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} 
-  {{ end }} 
-  {{ block "links" . }} {{ end }}
-  {{ partial "seo_schema.html" .}}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+    {{ if isset .Params "stylesheet" }}
+        <link rel="stylesheet" href="/css/{{ printf .Params.stylesheet }}" /> 
+    {{ end }}
+    {{ range .AlternativeOutputFormats }} 
+        {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} 
+    {{ end }} 
+    {{ block "links" . }} {{ end }}
+    {{ partial "seo_schema.html" .}}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
-  {{ partial "burger.html" .}} 
+    {{ partial "burger.html" .}} 
 
-  {{ partial "nav.html" .}}
+    {{ partial "nav.html" .}}
 
-  <main>
-    {{ block "main" . }} {{ end }}
-  </main>
+    <main>
+        {{ block "main" . }} {{ end }}
+    </main>
 
-  {{ block "footer" . }} {{ end }}
+    {{ block "footer" . }} {{ end }}
 
-  <script>
-    if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                });
-            }
-        });
-    }
-</script>
-  <script src="/js/index.js"></script>
-  {{ block "scripts" . }} {{ end }}
+    {{ partial "netlify-admin.html" . }}
+    <script src="/js/index.js"></script>
+    {{ block "scripts" . }} {{ end }}
 </body>
 
 </html>
