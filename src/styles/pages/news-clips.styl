@@ -1,0 +1,35 @@
+@import '../_main'
+@import '../partials/_news-clips-list'
+
+
+.post__header
+  display: none
+  padding-left: 0
+
+  @media screen and (max-width: $medium - 1)
+    display: block
+
+.logo
+  width: 10%
+  display:block
+  margin:auto
+
+/* page overrides */
+.wrapper 
+  margin: 0 auto
+  max-width: 1200px
+  width: 100%
+
+  @media screen and (min-width: $medium)
+    padding-left: 50px
+
+.row
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  width: 100%
+
+.column
+  display: flex;
+  flex-direction: column;
+  flex: 1;

@@ -1,8 +1,7 @@
 ---
 title: "News Clips"
 description: "A list of news clip."
-linktitle: "newsclips"
+linktitle: "news clips"
 menu: "main"
-type: articles
-stylesheet: "articles.css"
+stylesheet: "news-clips.css"
 ---
