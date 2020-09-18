@@ -1,6 +1,6 @@
 ---
 title: Kim Image Test
-date: 2020-09-17T03:25:50.448Z
+date: 2020-09-17
 stylesheet: article.css
 tags:
   - lakers
