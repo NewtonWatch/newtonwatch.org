@@ -1,21 +1,21 @@
 {{ define "main" }}
-  <div class="post">
-    <header class="post__header">
-      <h1 class="post__title">{{.Title}}</h1>
-      <time datetime="{{ .Date }}" class="post__date">{{ .Date.Format "Jan 2 2006" }}</time>
-      {{ partial "tags.html" .}}
-    </header>
-    <article class="post__content">
-      {{ partial "anchored-headings.html" .Content }}
-    </article>
-    {{ partial "post-pagination.html" .}}
-  </div>
+    <div class="post">
+        <header class="post__header">
+            <h1 class="post__title">{{.Title}}</h1>
+            <time datetime="{{ .Date }}" class="post__date">{{ .Date.Format "Jan 2 2006" }}</time>
+            {{ partial "tags.html" .}}
+        </header>
+        <article class="post__content">
+            {{ partial "anchored-headings.html" .Content }}
+        </article>
+        {{ partial "post-pagination.html" .}}
+    </div>
 {{ end }}
 
 {{ define "footer" }}
-  <footer>
-    {{ partial "social-icons.html" .}}
-  </footer>
+    <footer>
+        {{ partial "social-icons.html" .}}
+    </footer>
 {{ end }}
 
 {{ define "scripts" }}
