@@ -26,7 +26,7 @@
     "clean:public": "rm -f public/sitemap.xml && rm -f public/index.html && rm -f public/index.xml && rm -R public/articles/ && rm -R public/css/ && rm -R public/icons/ && rm -R public/img/ && rm -R public/js/ && rm -R public/tags/",
     "dev": "concurrently npm:hugo npm:gulp",
     "gulp": "gulp --env=dev",
-    "hugo": "hugo server -D",
+    "hugo": "hugo server -D --disableFastRender --ignoreCache --noHTTPCache",
     "release": "standard-version"
   },
   "keywords": [],
