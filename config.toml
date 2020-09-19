@@ -5,9 +5,8 @@ preserveTaxonomyNames = true
 copyright = "© 2020-{year} Copyright NewtonWatch. All rights reserved."
 
 [permalinks]
-  "/" = "/:year/:month/:day/:title/"
-  articles = "/:year/:month/:day/:title/"
-  news-clips = "/:year/:month/:day/:title/"
+  articles = "/articles/:year/:month/:day/:title/"
+  news-clips = "/news-clips/:year/:month/:day/:title/"
 
 [taxonomies]
   tag = "tags"
