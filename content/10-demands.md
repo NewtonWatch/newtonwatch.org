@@ -1,5 +1,5 @@
 ---
-title: "Immediate Demands"
+title: "10 Demands"
 date: 2020-08-15
 stylesheet: "article.css"
 type: articles
