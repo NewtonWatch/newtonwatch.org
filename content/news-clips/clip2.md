@@ -8,3 +8,4 @@ draft: false
 ---
 
 This title sucks 2
+![Figure 1: Washington Post Sucks.](/img/uploads/clip1_fig1_wapo.png)
