@@ -22,6 +22,7 @@ collections:
         - {label: "Body", name: "body", widget: "markdown"}
         - {label: "Stylesheet", name: "stylesheet", widget: "hidden", default: "article.css"}
         - {label: "Tags", name: "tags", widget: "list"}
+        - {label: "Visible", name: "visible", widget: hidden, default: true}
     - name: "news-clips"
       label: "News Clip"
       folder: "content/news-clips"
@@ -31,6 +32,7 @@ collections:
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
         - {label: "Stylesheet", name: "stylesheet", widget: "hidden", default: "article.css"}
+        - {label: "Visible", name: "visible", widget: hidden, default: true}
     - name: "main"
       label: "Main"
       folder: "content/"
@@ -40,3 +42,4 @@ collections:
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
         - {label: "Stylesheet", name: "stylesheet", widget: "hidden", default: "article.css"}
+        - {label: "Visible", name: "visible", widget: hidden, default: true}
