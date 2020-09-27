@@ -4,6 +4,10 @@ title = "NewtonWatch"
 preserveTaxonomyNames = true
 copyright = "© 2020-{year} Copyright NewtonWatch. All rights reserved."
 
+[permalinks]
+  articles = "/articles/:year/:month/:day/:title/"
+  news-clips = "/news-clips/:year/:month/:day/:title/"
+
 [taxonomies]
   tag = "tags"
 

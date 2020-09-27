@@ -1,10 +1,9 @@
 {{ define "main" }} 
-
 <a href="/"><img src="/img/logo.png" alt="NewtonWatch logo" class="logo-small"></a>
 <div class="wrapper">
     <div class="row">
-        <div class="column posts-list-column">
-            <h1>Articles</h1>
+        <div class="column">
+            <h1>News Clips</h1>
             <p class="banner-yellow">Check out <i>NewtonWatch</i>'s <a href="/editorial-guidelines">Editorial Guidelines</a>.</p>
             <ul class="post-list">
                 {{ range .Pages }}
@@ -14,14 +13,13 @@
                             <h2 class="post__title">
                                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                             </h2>
-                            {{ partial "tags.html" . }}
+                        </div>
+                        <div class="news__headline">
+                            {{ .Content }}
                         </div>
                     </li>
                 {{ end }}
             </ul>
-        </div>
-        <div class="column tags-list-column">
-            {{ partial "browse-by-tag.html" . }}
         </div>
     </div>
 </div>

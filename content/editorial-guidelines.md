@@ -1,10 +1,7 @@
 ---
 title: "Editorial Guidelines"
-description: "Editorial Guidelines"
 date: 2020-08-15
 stylesheet: "article.css"
-slug: "editorial-guidelines"
-keywords: ["journalism", "citizen journalism", "newton", "editorial-guidelines"]
 type: articles
 menu: "main"
 draft: false
