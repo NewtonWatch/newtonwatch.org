@@ -2,6 +2,9 @@
 
 This repository is the source code for [https://www.newtonwatch.org](https://www.newtonwatch.org). Site design heavily influenced by [Jake Wiesler](https://github.com/jakewies/jakewiesler.com).
 
+## Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64f14f8a-7135-40f5-9ad3-a4254da4511d/deploy-status)](https://app.netlify.com/sites/newtonwatch/deploys)
+
 License
 ===
 
