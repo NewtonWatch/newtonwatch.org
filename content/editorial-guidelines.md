@@ -21,8 +21,6 @@ A producer of news and information will be judged by its:
 
 ---- 
 
-**Last updated** on August 15, 2020.
-
 ### General guidelines and inspiration
 > _“Strong people don’t need strong leaders.”_ —Ella Baker
 
@@ -68,7 +66,7 @@ To maximize democratic control, we defend:
 2. We defend enhanced Miranda rights and citizen control over the public safety (much like school boards for public schools, whose legitimacy is widely accepted among the public).
 3. We condemn mass surveillance and the US Foreign Intelligence Surveillance Court (or FISA Court), state murder (capital punishment or the death penalty), and all prison labor (or convict leasing).
 
-**Last updated:** August 15, 2020
+----
 
 ### Change log
 1. ...
