@@ -1,9 +1,9 @@
 ---
-title: "Editorial Guidelines"
+title: Editorial Guidelines
 date: 2020-08-15
-stylesheet: "article.css"
+stylesheet: article.css
 type: articles
-menu: "main"
+menu: main
 draft: false
 ---
 
@@ -36,6 +36,7 @@ A producer of news and information will be judged by its:
 
 ### Democracy and elections
 To maximize democratic control, we defend:
+
 1. citizenship rights for all persons in the US,
 2. auto-registration for all age-eligible voters,
 3. a national voting holiday,
