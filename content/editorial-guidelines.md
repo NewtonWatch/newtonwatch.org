@@ -21,8 +21,6 @@ A producer of news and information will be judged by its:
 
 ---- 
 
-**Last updated** on August 15, 2020.
-
 ### General guidelines and inspiration
 > _“Strong people don’t need strong leaders.”_ —Ella Baker
 
