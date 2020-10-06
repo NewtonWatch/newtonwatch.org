@@ -10,6 +10,7 @@ draft: false
 Readers can refer to these guidelines to understand our criticisms and the solutions we seek. Although some of the subjects covered are outside the function of the Newton city government, **these guidelines explain how and why we cover stories the way we do** — the context for our content.
 
 A producer of news and information will be judged by its:
+
 - Selection of topics
 - Distribution of concerns
 - Emphasis
