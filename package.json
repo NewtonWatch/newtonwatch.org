@@ -8,7 +8,7 @@
     "url": "https://github.com/NewtonWatch/newtonwatch.org"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
+    "@babel/core": "^7.12.9",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "concurrently": "^5.3.0",
@@ -16,7 +16,7 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
     "gulp-if": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-stylus": "^2.7.0",
     "gulp-util": "^3.0.8",
     "standard-version": "^9.0.0"
