@@ -8,7 +8,7 @@
     "url": "https://github.com/NewtonWatch/newtonwatch.org"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.12.10",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "concurrently": "^5.3.0",
