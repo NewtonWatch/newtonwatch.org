@@ -4,7 +4,7 @@ description: clip1
 date: 2020-09-18
 stylesheet: article.css
 slug: clip1
-draft: false
+draft: true
 ---
 ![[Alt] The Notorious RBG](/img/uploads/clip2.png "[Title] Does this show? ")
 

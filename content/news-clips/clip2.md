@@ -4,7 +4,7 @@ description: "clip2"
 date: 2020-09-18
 stylesheet: article.css
 slug: "clip2"
-draft: false
+draft: true
 ---
 ![Figure 1: Washington Post Sucks.](/img/uploads/clip1_fig1_wapo.png)
 
