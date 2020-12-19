@@ -5,6 +5,7 @@ stylesheet: "article.css"
 tags: 
     - mayor
 draft: false
+visible: true
 ---
 
 ![Mayor Ruthanne Fuller giving her state of the union address at Newton City Hall.](/img/new-administration-needs-better-vision/img1.jpeg)
