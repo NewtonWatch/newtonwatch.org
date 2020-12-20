@@ -26,14 +26,14 @@
         {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} 
     {{ end }} 
     {{ block "links" . }} {{ end }}
-    {{ partial "seo_schema.html" .}}
+    {{ partial "seo_schema.html" . }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
-    {{ partial "burger.html" .}} 
+    {{ partial "burger.html" . }} 
 
-    {{ partial "nav.html" .}}
+    {{ partial "nav.html" . }}
 
     <main>
         {{ block "main" . }} {{ end }}
