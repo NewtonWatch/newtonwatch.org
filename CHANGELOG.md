@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.9...v0.0.10) (2020-12-21)
+
+
+### Features
+
+* ability to hide pages at the root ([abf6ab2](https://github.com/NewtonWatch/newtonwatch.org/commit/abf6ab2838b02d6f6f2731eb17683eff02f63dcf))
+* add Contact Us footer ([c783e35](https://github.com/NewtonWatch/newtonwatch.org/commit/c783e3529c98d4e4d92f3433e3053dd178d2af1f))
+
 ### [0.0.9](https://github.com/NewtonWatch/newtonwatch.org/compare/v0.0.8...v0.0.9) (2020-12-19)
 
 
