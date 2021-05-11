@@ -33,7 +33,7 @@
   "author": "NewtonWatch",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "lodash.template": "^4.5.0"
   }
 }
