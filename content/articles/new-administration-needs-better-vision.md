@@ -9,9 +9,10 @@ visible: true
 ---
 
 ![Mayor Ruthanne Fuller giving her state of the union address at Newton City Hall.](/img/new-administration-needs-better-vision/img1.jpeg)
+
 #### The priorities for Mayor Fuller and Newton’s top politicians include changes to zoning for business-friendly development, budget negotiations to water down union contracts and retiree pensions, and calls for consensus and “working together.”
 
-by Duney Roberts
+by Robert Roberts
 
 **NEWTON** — The city’s new government is led by mayor Ruthanne Fuller of Ward 7, who won narrowly against her opponent Scott Lennon (Ward 1 Councilor-at-large) by 344 votes ([11/07/2017](http://newton.wickedlocal.com/news/20171107/ruthanne-fuller-will-be-newtons-first-woman-mayor-charter-reform-rejected)). With few—if any—fresh ideas in pursuit of a clear vision for the city, and with only a 42% voter turnout, November’s election results appear to have cemented the priorities of the former Warren administration.
 
